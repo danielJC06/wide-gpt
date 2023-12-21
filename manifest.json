@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Make GPT wide",
+    "version": "0.1.0",
+    "description": "Sets GPT response to 100%",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://chat.openai.com/*"]
+    }]
+   
+  }
